@@ -53,7 +53,6 @@ VOLUME /var/lib/postgresql/conf
 COPY docker-entrypoint.sh /
 
 COPY run.sh /run.sh
-COPY run_old.sh /run_old.sh
 COPY conf/ /var/lib/postgresql/conf/
 
 
